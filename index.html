@@ -1,0 +1,81 @@
+<html>
+
+<head>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .container {
+            width: 60%;
+            height: 300px;
+            border: 0px solid blue;
+        }
+        
+        .box {
+            width: 33.3%;
+            height: 300px;
+            border: 1px solid blue;
+            float: left;
+        }
+        
+        Input {
+            width: 70%;
+            height: 40px;
+            color: red;
+            font-size: 18px;
+        }
+        
+        H2 {
+            color: blue;
+            font-size: 30px;
+        }
+        
+        Button {
+            width: 28%;
+            height: 40px;
+            font-size: 24px;
+            Background-color: #00AD10;
+            color: white;
+        }
+        
+        Li {
+            list-style-type: none;
+            Font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Chat App Simple Conversation</h2>
+
+    <div class=”container”>
+
+        <div class="box" style="background-color:#FCF78F;">
+            <h2> Person A </h2>
+            <img src=”JavaScript\img1.PNG” width=”100%”>
+            <input id="i1">
+            <button onclick="sendsms()">send</button>
+
+        </div>
+        <div class="box" id="mydiv" style="padding-left:10px;padding-top:1px;">
+
+
+        </div>
+        <div class="box" style="background-color:#FCF78F;">
+            <h2> Person B
+            </h2>
+            <img src=”JavaScript\img1.PNG” width=”100%”>
+            <input id="i2">
+            <button onclick="sendsms()">send</button>
+        </div>
+
+    </div>
+
+
+    <script src="index.js "></script>
+</body>
+
+</html>
